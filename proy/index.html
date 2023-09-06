@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANIPROYECTO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: lightblue;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .circle-btn {
+            background-color: lightgreen;
+            border-radius: 50%;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .card {
+            background-color: lightyellow;
+            padding: 20px;
+            margin: 20px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="c:\Users\admin\Desktop\Scrapers\paniproyecto\proy\logo1.png" alt="Company Logo"> <!-- You can replace 'path_to_logo.png' with the path to your logo -->
+        <h1>PANIPROYECTO</h1>
+    </header>
+
+    <div class="btn-container">
+        <button class="circle-btn">Mis licitaciones guardadas</button>
+        <button class="circle-btn">Mis licitaciones concursadas</button>
+        <button class="circle-btn">Todas las licitaciones de mis categorías</button>
+    </div>
+
+    <div class="card" onclick="location.href='#';">Regulaciones</div>
+    <div class="card" onclick="location.href='#';">Redeterminaciones de precios</div>
+    <div class="card" onclick="location.href='#';">Indicadores económicos</div>
+    <div class="card" onclick="location.href='#';">Noticias</div>
+
+</body>
+</html>
